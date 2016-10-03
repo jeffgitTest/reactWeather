@@ -1508,7 +1508,7 @@
 /* 244 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("\"use strict\";\n\nvar React = __webpack_require__(1);\n\nvar About = function About() {\n  return React.createElement(\n    \"h3\",\n    null,\n    \"About Component\"\n  );\n};\n\nmodule.exports = About;\n\n/*****************\n ** WEBPACK FOOTER\n ** ./app/components/About.jsx\n ** module id = 244\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./app/components/About.jsx?");
+	eval("\"use strict\";\n\nvar React = __webpack_require__(1);\n\nvar About = function About() {\n  return React.createElement(\n    \"h3\",\n    null,\n    \"About Component!\"\n  );\n};\n\nmodule.exports = About;\n\n/*****************\n ** WEBPACK FOOTER\n ** ./app/components/About.jsx\n ** module id = 244\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./app/components/About.jsx?");
 
 /***/ },
 /* 245 */
