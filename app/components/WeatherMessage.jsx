@@ -8,8 +8,8 @@ var WeatherMessage = React.createClass({
     var {location,temp} = this.props;
     return(
       <div>
-        <p className="text-center">
-          It's it {temp} in {this.capitalizeFirstLetter(location)}</p>
+        <h3 className="text-center">
+          It's it {temp} in {this.capitalizeFirstLetter(location)}</h3>
       </div>
     );
   }

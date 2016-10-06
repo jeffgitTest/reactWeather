@@ -4,10 +4,13 @@ var {Link, IndexLink} = require("react-router");
 var Nav = React.createClass({
   onJeffSubmit: function(e){
     e.preventDefault();
-    alert("no function yet!");
-    this.refs.search.value = "";
+    var navSearch = this.refs.search.value;
+    var encodedLocation = encodeURIComponent(navSearch);
+    if(navSearch.length>0 && typeof navSearch === 'string'){
+      this.refs.search.value = "";
+      window.location.hash = '#/?location=' + encodedLocation;
+    }
   },
-
   render: function () {
     return (
       <div className="top-bar">
